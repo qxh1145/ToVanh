@@ -1,0 +1,212 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to bottom, #ffe6f0, #fff0f5);
+    overflow: hidden;
+  }
+  
+  /* Hiệu ứng lóe sáng */
+  .flash {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    opacity: 0;
+    z-index: 100;
+    pointer-events: none;
+  }
+  
+  .flash.active {
+    animation: flashAnim 0.4s ease-out;
+  }
+  
+  @keyframes flashAnim {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  /* Phong bì */
+  #envelope {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 300px;
+    z-index: 10;
+  }
+  
+  #envelope img {
+    width: 100%;
+    transition: opacity 0.5s;
+  }
+  
+  #letterContainer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%; /* tăng chiều cao thư */
+    transform: translate(-50%, -50%);
+    background: url('images/letter-bgm.png') no-repeat center/cover;
+    z-index: 5;
+    overflow: hidden;
+  }
+  
+  #letterContent {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 80%;
+    height: 70%; /* giới hạn nội dung trong vùng an toàn */
+    font-size: 23px;
+    color: #4a2c2a;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    overflow-y: auto; /* cho phép cuộn nếu tràn nội dung */
+    padding-right: 10px;
+  }
+  
+  
+  /* Trái tim đập */
+  #heartBeat {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ff4d4d;
+    transform: translateX(-50%) rotate(-45deg);
+    animation: heartbeat 1.5s infinite;
+  }
+  
+  #heartBeat::before,
+  #heartBeat::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff4d4d;
+    border-radius: 50%;
+  }
+  
+  #heartBeat::before {
+    top: -50px;
+    left: 0;
+  }
+  
+  #heartBeat::after {
+    left: 50px;
+    top: 0;
+  }
+  
+  @keyframes heartbeat {
+    0% { transform: translateX(-50%) rotate(-45deg) scale(1); }
+    25% { transform: translateX(-50%) rotate(-45deg) scale(1.1); }
+    50% { transform: translateX(-50%) rotate(-45deg) scale(1); }
+    75% { transform: translateX(-50%) rotate(-45deg) scale(1.1); }
+    100% { transform: translateX(-50%) rotate(-45deg) scale(1); }
+  }
+  
+  /* Mưa trái tim */
+  .heart {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: red;
+    transform: rotate(45deg);
+    animation: fall 6s linear infinite;
+    z-index: 9999;
+  }
+  
+  .heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+  }
+  
+  .heart::before {
+    top: -10px;
+    left: 0;
+  }
+  
+  .heart::after {
+    left: -10px;
+    top: 0;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -50px;
+      opacity: 1;
+    }
+    100% {
+      top: 110vh;
+      opacity: 0;
+    }
+  }
+  /* Responsive cho điện thoại */
+@media (max-width: 768px) {
+    #envelope {
+      width: 220px;
+    }
+  
+    
+    #letterContainer {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%);
+        background: url('images/letter-bgm.png') no-repeat center;
+        background-size: 100% 100%; /* ✅ ảnh phủ toàn bộ container */
+        z-index: 5;
+        overflow: hidden;
+      
+      }
+  
+    #letterContent {
+      top: 15%;
+      left: 5%;
+      width: 90%;
+      height: 70%;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  
+    #heartBeat {
+      width: 70px;
+      height: 70px;
+      top: 5%;
+    }
+  
+    #heartBeat::before,
+    #heartBeat::after {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .heart {
+      width: 14px;
+      height: 14px;
+    }
+  
+    .heart::before,
+    .heart::after {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
+  
