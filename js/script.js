@@ -17,7 +17,7 @@ Có thể anh không hoàn hảo, không phải lúc nào cũng giỏi giang hay
 Bởi em xứng đáng với tất cả những gì đẹp nhất – những nụ cười trọn vẹn 😄, những cái ôm bình yên 🤗, và một tình yêu không điều kiện 💝.
 
 Chúc em sinh nhật thật hạnh phúc 🎉, trọn vẹn và ý nghĩa. Mong em luôn khỏe mạnh 💪, rạng rỡ như ánh mặt trời ☀️, và gặp được thật nhiều điều tốt đẹp trong cuộc sống này ✨. 
-Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – chướng, hay chửi Bôn, mạnh mẽ và luôn tin vào điều kỳ diệu 🌟.
+Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – chướng, só chống, mạnh mẽ và luôn tin vào điều kỳ diệu 🌟.
 
 Cảm ơn em đã đến bên anh, đã chọn anh giữa hàng triệu người ngoài kia 🌹. Anh sẽ luôn ở đây, yêu em, thương em, và đồng hành với em – dù nắng hay mưa ☔️, dù vui hay buồn 💞.
 
