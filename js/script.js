@@ -5,7 +5,7 @@ const images = [
     "images/letter4.png"
   ];
   
-  const text = `Gửi em – cô gái anh yêu nhất trên đời này 💖,
+  const text = `Gửi Việt Anh – cô gái anh yêu nhất trên đời này 💖,
 
 Hôm nay là sinh nhật của em 🎂 – một ngày thật đặc biệt, bởi vì vào ngày này, người con gái tuyệt vời nhất mà anh từng biết đã đến với thế giới 🌎.
 Và may mắn làm sao 🍀, anh lại có cơ hội được ở cạnh em, được yêu em và cùng em đi qua từng khoảnh khắc nhỏ bé trong cuộc sống 💑.
