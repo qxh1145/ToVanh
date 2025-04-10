@@ -22,7 +22,7 @@ Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – dịu dàng, mạ
 Cảm ơn em đã đến bên anh, đã chọn anh giữa hàng triệu người ngoài kia 🌹. Anh sẽ luôn ở đây, yêu em, thương em, và đồng hành với em – dù nắng hay mưa ☔️, dù vui hay buồn 💞.
 
 Mãi yêu em,
-Anh. ❤️`;
+Bôn thúi. ❤️`;
   
   const envelope = document.getElementById("envelope");
   const letterImg = document.getElementById("letterImage");
