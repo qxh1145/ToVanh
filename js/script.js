@@ -5,7 +5,7 @@ const images = [
     "images/letter4png.png"
   ];
   
-  const text = `Gửi em – cô gái anh yêu nhất trên đời này 💖,
+  const text = `Gửi Việt Anh – cô gái anh yêu nhất trên đời này 💖,
 
 Hôm nay là sinh nhật của em 🎂 – một ngày thật đặc biệt, bởi vì vào ngày này, người con gái tuyệt vời nhất mà anh từng biết đã đến với thế giới 🌎.
 Và may mắn làm sao 🍀, anh lại có cơ hội được ở cạnh em, được yêu em và cùng em đi qua từng khoảnh khắc nhỏ bé trong cuộc sống 💑.
@@ -17,12 +17,14 @@ Có thể anh không hoàn hảo, không phải lúc nào cũng giỏi giang hay
 Bởi em xứng đáng với tất cả những gì đẹp nhất – những nụ cười trọn vẹn 😄, những cái ôm bình yên 🤗, và một tình yêu không điều kiện 💝.
 
 Chúc em sinh nhật thật hạnh phúc 🎉, trọn vẹn và ý nghĩa. Mong em luôn khỏe mạnh 💪, rạng rỡ như ánh mặt trời ☀️, và gặp được thật nhiều điều tốt đẹp trong cuộc sống này ✨. 
-Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – dịu dàng, mạnh mẽ và luôn tin vào điều kỳ diệu 🌟.
+Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – chướng, só chống, mạnh mẽ và luôn tin vào điều kỳ diệu 🌟.
 
 Cảm ơn em đã đến bên anh, đã chọn anh giữa hàng triệu người ngoài kia 🌹. Anh sẽ luôn ở đây, yêu em, thương em, và đồng hành với em – dù nắng hay mưa ☔️, dù vui hay buồn 💞.
 
 Mãi yêu em,
-Anh. ❤️`;
+Bôn thúi. ❤️
+
+ĐỪNG CHỬI HỌ NỮA NGHE!!!!`;
   
   const envelope = document.getElementById("envelope");
   const letterImg = document.getElementById("letterImage");
