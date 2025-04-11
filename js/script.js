@@ -2,7 +2,7 @@ const images = [
     "images/letter1.png",
     "images/letter2.png",
     "images/letter3.png",
-    "images/letter4.png"
+    "images/letter4png.png"
   ];
   
   const text = `Gửi Việt Anh – cô gái anh yêu nhất trên đời này 💖,
