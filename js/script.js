@@ -5,24 +5,13 @@ const images = [
     "images/letter4.png"
   ];
   
-  const text = `Gửi Việt Anh – cô gái anh yêu nhất trên đời này 💖,
+  const text = `Gửi nyc – cô gái anh yêu nhất trên đời này 💖,
 
-Hôm nay là sinh nhật của em 🎂 – một ngày thật đặc biệt, bởi vì vào ngày này, người con gái tuyệt vời nhất mà anh từng biết đã đến với thế giới 🌎.
-Và may mắn làm sao 🍀, anh lại có cơ hội được ở cạnh em, được yêu em và cùng em đi qua từng khoảnh khắc nhỏ bé trong cuộc sống 💑.
-
-Anh không biết phải viết bao nhiêu dòng để diễn tả hết tình cảm của mình dành cho em. Nhưng có một điều anh luôn chắc chắn – đó là từ khi em xuất hiện, thế giới của anh đã khác 🌈. 
-Em là người khiến anh mỉm cười 😊 những lúc yếu lòng, là người khiến trái tim anh trở nên ấm áp hơn mỗi ngày ❤️.
-
-Có thể anh không hoàn hảo, không phải lúc nào cũng giỏi giang hay lãng mạn 😅. Nhưng anh luôn cố gắng trở thành một người đàn ông tốt hơn, vì em 🫶. 
-Bởi em xứng đáng với tất cả những gì đẹp nhất – những nụ cười trọn vẹn 😄, những cái ôm bình yên 🤗, và một tình yêu không điều kiện 💝.
-
-Chúc em sinh nhật thật hạnh phúc 🎉, trọn vẹn và ý nghĩa. Mong em luôn khỏe mạnh 💪, rạng rỡ như ánh mặt trời ☀️, và gặp được thật nhiều điều tốt đẹp trong cuộc sống này ✨. 
-Anh mong rằng mỗi năm trôi qua, em vẫn sẽ là em – chướng, hay chửi Bôn, mạnh mẽ và luôn tin vào điều kỳ diệu 🌟.
-
-Cảm ơn em đã đến bên anh, đã chọn anh giữa hàng triệu người ngoài kia 🌹. Anh sẽ luôn ở đây, yêu em, thương em, và đồng hành với em – dù nắng hay mưa ☔️, dù vui hay buồn 💞.
-
-Mãi yêu em,
-Bôn thúi. ❤️`;
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+`;
   
   const envelope = document.getElementById("envelope");
   const letterImg = document.getElementById("letterImage");
